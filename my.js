@@ -6,5 +6,5 @@
         deg = deg + 0.0000000000000000000000000000000000000000000000001;
         header.style.transform = 'rotateX(' + deg +  'deg)';
     }
-    setInterval(rotateHeader, 1);
+    setInterval(rotateHeader, 10000000000000000);
 })();
