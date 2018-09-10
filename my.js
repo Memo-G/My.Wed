@@ -3,8 +3,8 @@
     var header = document.getElementById('header');
     var deg = 0;
     function rotateHeader() {
-        deg = deg + 1;
+        deg = deg + 6;
         header.style.transform = 'rotateX(' + deg +  'deg)';
     }
-    setInterval(rotateHeader, 100);
+    setInterval(rotateHeader, 20);
 })();
